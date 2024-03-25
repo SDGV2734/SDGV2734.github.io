@@ -10,15 +10,15 @@ tags: [DBS101]
 SQl set operation are operators in SQL that combines two or more queries into a single result set. There are four main set oprations namely, UNION, UNION ALL, INTERSECT, MINUS. Set operation are useful in manageing data from multiple source when we need to combine the dates from these sources.
 
 - UNION: In this operation the multiple tables should have the same number of columns, same datatype, and of the same order for it to operate. If there are more than one type of same raw in the result set than it removes one of them indicating that its does not allow duplicate values.
-    ![Alt text](./<Screenshot 2024-03-21 at 11.00.04 PM.png>)
-     ![Alt text](./2024-03-15-SWS101.md<Screenshot 2024-03-21 at 10.45.35 PM.png>)
+    ![Alt text](./Screenshot%202024-03-21%20at%2011.00.04 PM.png)
+     ![Alt text](./Screenshot%202024-03-21%20at%2010.45.35 PM.png)
     result table:
     ![Alt text](./image-1.png)
 
 
 - UNION ALL: It is same as the UNION operation but the only difference is that it allows duplicate value in the result set.
 
-    ![Alt text](./<Screenshot 2024-03-21 at 10.58.22 PM.png>)
+    ![Alt text](./Screenshot 2024-03-21 at 10.58.22 PM.png)
     result table:
     ![Alt text](./image-3.png)
 

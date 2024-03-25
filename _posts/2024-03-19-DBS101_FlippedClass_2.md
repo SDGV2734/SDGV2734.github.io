@@ -37,4 +37,4 @@ Derived Attributes: are those attributes that can be derived from other attribut
 
 ![Alt text](./image.png)
 
-![Alt text](./<Screenshot 2024-03-21 at 12.19.44 AM.png>)
+![Alt text](./Screenshot%202024-03-21%20at%2012.19.44 AM.png)
