@@ -11,16 +11,21 @@ From what I have learned, Data normalization is a process used in database desig
 
 #### Types of Normal form
 During my cousrse of diving through normalization I found out that there are different types of normal form
-    https://miro.medium.com/v2/resize:fit:1400/format:webp/1*2e4BcaGoJB_H9q5MqGmI9Q.png
+
+https://miro.medium.com/v2/resize:fit:1400/format:webp/1*2e4BcaGoJB_H9q5MqGmI9Q.png
 
 ### First Nomal  form (1NF)
 There are basic principle or rule for the database to be in a First normal form: 
+
     1. The database should have single valued attributes or columns
+
     2. All the values should be of the same domain.
+
     3. All the columns in the table should have unique names
+
     4. The order in which data is stored should not matter 
 
-    https://www.dummies.com/wp-content/uploads/399618.image1.jpg
+https://www.dummies.com/wp-content/uploads/399618.image1.jpg
 
 
 
@@ -42,6 +47,7 @@ for example,
 In the table given below we have partial dependency and here is how, 
 
 Emplyoo-Task 
+
 Employee_ID | Task_No | Employee_Name | Task_Name
 ------------|---------|---------------|-----------------
 C01         |  34     |   Mona        | App Development
@@ -70,7 +76,9 @@ Thus, the relation happens to be in the second normal form in the case of Databa
 
 ### Third Normal form (3NF)
 Same as 1NF and 2NF, 3NF also has some rule to be followed and they are;
+
     1. the table should be in Second normal form.
+
     2. And the table should not have Transitive Dependency.
 
 And again before I say anything further let me tell you what Trasitive Dependency is, 
@@ -96,6 +104,7 @@ F08         |  S09         | 50
 F03         | S05          | 30
 
 Telecast
+
  Telecast_ID| Telecast_Type | 
 ------------|---------------|
 S09         |  Thriller
@@ -107,8 +116,9 @@ So now  the above table is now on 3NF of normalization.
 
 ### Boyce-codd normal form (BCNF)
 Its is a extention of third noraml form and is also known as 3.5 normal form. and like any other normal form it also has some conditions to be followed;
-    1. The table shoul be Third noraml form 
-    2. And, for a dependency A-->B, A, can not be non-primary attribute, if B, is a primary attritube.
+
+1. The table shoul be Third noraml form 
+2. And, for a dependency A-->B, A, can not be non-primary attribute, if B, is a primary attritube.
 
 If a non-primary attribute determines a primary attritube than it does not satisfy the BCNF. Inorder to do it we need to decompose table.
 
@@ -135,6 +145,7 @@ Student_ID  | p_ID     |
 103         | 4         | 
 
 Professor
+
 P_ID  | Subject     |   Professor
 ------|-------------|-----------------
 1     | Java        | P.Java
@@ -149,15 +160,17 @@ Now the table will satify BCNF.
 ### Fourth normal form (4NF)
 
 For a table to satisfy 4NF the following condition should be full filled;
+
     1. The table should be in BCNF
+    
     2. The table should not have Multi-valued Dependency.
 
 Example;
 The table below shows the college enrolment table with columns s_id, course and hobby.
 
-    - s_ID being the primary key 
-    - course is multi-valued attribute
-    - hobby is the attribute that does not depend on the course.
+ - s_ID being the primary key 
+ - course is multi-valued attribute
+ - hobby is the attribute that does not depend on the course.
 
 s_ID   |   course   |  hobby
 -------|------------|--------
@@ -169,6 +182,7 @@ s_ID   |   course   |  hobby
 Now to make the table into 4NF we need to decompose the table into two.
 
 R1(student-couser) table
+
 s_ID   |   course   
 -------|------------
 1      |  science   
