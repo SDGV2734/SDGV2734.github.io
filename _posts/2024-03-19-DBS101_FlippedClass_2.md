@@ -34,9 +34,8 @@ Multivalue attributes: thses are attrbutes that can contain more than one value 
 Derived Attributes: are those attributes that can be derived from other attributes.
 
 
-
-![!\[Alt text\](./image.png)
-](../assets/lib/image.png)
+![Alt text](../assets/lib/image.png)
 
 ![!\[Alt text\](./Screenshot%202024-03-21%20at%2012.19.44 AM.png)
-](<../assets/lib/Screenshot 2024-03-21 at 12.19.44 AM.png>)
+
+
