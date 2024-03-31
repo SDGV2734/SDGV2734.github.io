@@ -11,9 +11,9 @@ SQl set operation are operators in SQL that combines two or more queries into a 
 
 - UNION: In this operation the multiple tables should have the same number of columns, same datatype, and of the same order for it to operate. If there are more than one type of same raw in the result set than it removes one of them indicating that its does not allow duplicate values.
 
-    ![Alt text](<../image/Screenshot 2024-03-21 at 11.00.04 PM.png>)
+![Alt text](../image/table2.png)
 
-     ![Alt text](<../image/Screenshot 2024-03-21 at 10.45.35 PM.png>)
+![Alt text](../image/table.png)
     result table:
     
 ![Alt text](../image/image1.png)

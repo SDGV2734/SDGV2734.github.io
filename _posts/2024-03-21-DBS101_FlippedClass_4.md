@@ -18,18 +18,18 @@ Some commonly used Rank funtion are:
 
 - RANK(): This funtion assigns rank to each row with a partition, and if two data recieves the same rank than the next is skipped for the number of tied row.
 
-![Alt text](../assets/lib/image10.png)
+![Alt text](../image/image10.png)
 
 - RANK_NUMBER(): It assigns a unique sequential rank to each row within a partition.
 
-![Alt text](../assets/lib/image11.png)
+![Alt text](../image/image11.png)
 
 - DENSE_RANK(): Same as that of RANK() function it assigns rank to each row but if the there is a tie in the rank the next rank is not skipped.
-![Alt text](../assets/lib/image12.png)
+![Alt text](../image/image12.png)
 
 - NTILE(n): This function divied the row within a partition into "n" numbers of equal sized group as possible and assigns group number to each group.
 
-![Alt text](../assets/lib/image13.png)
+![Alt text](../image/image13.png)
 ---
 
 ### Windowing
