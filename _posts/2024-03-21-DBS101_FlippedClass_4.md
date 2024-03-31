@@ -18,18 +18,18 @@ Some commonly used Rank funtion are:
 
 - RANK(): This funtion assigns rank to each row with a partition, and if two data recieves the same rank than the next is skipped for the number of tied row.
 
-![    !\[Alt text\](./image-10.png)](../assets/lib/image-10.png)
+![Alt text](../assets/lib/image10.png)
 
 - RANK_NUMBER(): It assigns a unique sequential rank to each row within a partition.
 
-![    !\[Alt text\](./image-11.png)](../assets/lib/image-11.png)
+![Alt text](../assets/lib/image11.png)
 
 - DENSE_RANK(): Same as that of RANK() function it assigns rank to each row but if the there is a tie in the rank the next rank is not skipped.
-   ![ !\[Alt text\](./image-12.png)](../assets/lib/image-12.png)
+![Alt text](../assets/lib/image12.png)
 
 - NTILE(n): This function divied the row within a partition into "n" numbers of equal sized group as possible and assigns group number to each group.
 
-![    !\[Alt text\](./image-13.png)](../assets/lib/image-13.png)
+![Alt text](../assets/lib/image13.png)
 ---
 
 ### Windowing
@@ -39,8 +39,8 @@ This function performs a calcution accross a set of table row that are somehow r
 THe window funtion are used with OVER() clause,(which define a set of row within the query result set.) The window funtion is defined by the the PARTITION BY() clause,(which divide  the result set into partition) and the ORDER BY() clause,(which orders the row within each partition).
 
 The basic syntex of of a windows function is:
-   ![ !\[Alt text\](./image-14.png)](../assets/lib/image-14.png)
-  ![  !\[Alt text\](./image-15.png)](../assets/lib/image-15.png)
+![Alt text](../assets/lib/image14.png)
+![Alt text](../assets/lib/image15.png)
 ---
 
 ### Pivoting
