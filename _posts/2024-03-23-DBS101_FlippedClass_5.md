@@ -17,28 +17,32 @@ https://miro.medium.com/v2/resize:fit:1400/format:webp/1*2e4BcaGoJB_H9q5MqGmI9Q.
 ### First Nomal  form (1NF)
 There are basic principle or rule for the database to be in a First normal form: 
 
-    1. The database should have single valued attributes or columns
+1. The database should have single valued attributes or columns
 
-    2. All the values should be of the same domain.
+2. All the values should be of the same domain.
 
-    3. All the columns in the table should have unique names
+3. All the columns in the table should have unique names
 
-    4. The order in which data is stored should not matter 
+4. The order in which data is stored should not matter 
 
 https://www.dummies.com/wp-content/uploads/399618.image1.jpg
 
 
 
 let me show you a example, in the following table as said in the above rules each column should contain only single value but in this case there are more one values in the subject column.
+
     https://miro.medium.com/v2/resize:fit:1400/format:webp/1*wMW2xLwFAcfMhhyr3wWemQ.png
 
 So to fix this we just need to break the values in the singl values as shown in the table below.
+
     https://miro.medium.com/v2/resize:fit:1400/format:webp/1*ngaofQWIozI59t7S-7zEJg.png
 
 ---
 ### Second normal form (2NF)
 This form also has some basic principle to be followed for the data to be in 2NF. The principle are;
+
     1. First and fore most the table should be in 1NF.
+
     2. There should not be any Partail Dependency.
 
 Before we dive in let me tell you what Partail Dependency is, It an attribute in a table that depends on only a part of the primary key but not the whole key.
@@ -85,6 +89,7 @@ And again before I say anything further let me tell you what Trasitive Dependenc
 "Transitive Dependency refers to some non-primary key other than the primary key that depends on another non-primary akey that is dependent entirely on the primary key."
 
 Example,
+
 The table below is not in  3NF because it includes a transitive dependency,
 
 Show_ID     | Telecast_ID | Telecast_Type | CD_Cost ($)
@@ -162,7 +167,7 @@ Now the table will satify BCNF.
 For a table to satisfy 4NF the following condition should be full filled;
 
     1. The table should be in BCNF
-    
+
     2. The table should not have Multi-valued Dependency.
 
 Example;

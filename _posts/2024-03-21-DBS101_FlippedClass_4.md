@@ -25,6 +25,7 @@ Some commonly used Rank funtion are:
 ![Alt text](../image/image11.png)
 
 - DENSE_RANK(): Same as that of RANK() function it assigns rank to each row but if the there is a tie in the rank the next rank is not skipped.
+
 ![Alt text](../image/image12.png)
 
 - NTILE(n): This function divied the row within a partition into "n" numbers of equal sized group as possible and assigns group number to each group.
@@ -39,7 +40,9 @@ This function performs a calcution accross a set of table row that are somehow r
 THe window funtion are used with OVER() clause,(which define a set of row within the query result set.) The window funtion is defined by the the PARTITION BY() clause,(which divide  the result set into partition) and the ORDER BY() clause,(which orders the row within each partition).
 
 The basic syntex of of a windows function is:
+
 ![Alt text](../image/image14.png)
+
 ![Alt text](../image/image15.png)
 ---
 
