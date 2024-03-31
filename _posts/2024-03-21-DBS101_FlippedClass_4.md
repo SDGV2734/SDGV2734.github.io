@@ -39,8 +39,8 @@ This function performs a calcution accross a set of table row that are somehow r
 THe window funtion are used with OVER() clause,(which define a set of row within the query result set.) The window funtion is defined by the the PARTITION BY() clause,(which divide  the result set into partition) and the ORDER BY() clause,(which orders the row within each partition).
 
 The basic syntex of of a windows function is:
-![Alt text](../assets/lib/image14.png)
-![Alt text](../assets/lib/image15.png)
+![Alt text](../image/image14.png)
+![Alt text](../image/image15.png)
 ---
 
 ### Pivoting
