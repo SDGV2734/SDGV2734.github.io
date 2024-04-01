@@ -103,7 +103,7 @@ Graph databases store data in nodes and edges. Nodes typically store information
  - Graph databases can be more complex to understand and work with compared to other database models.
 
 
- #### 5. Vector Based 
+ ####  5. Vector Based 
  A vector database is designed to handle data that’s organized as vectors. These are just arrays of numbers that represent different aspects of the data.They are  good at finding similarities between different pieces of data, like words or images and can handle huge amounts of data efficiently, and also they work well for real-time analysis. It is used in machine learning and AI to handle lots of data with many dimensions.
 
 ![Alt text](../image/vector.png)
