@@ -12,7 +12,7 @@ From what I have learned, Data normalization is a process used in database desig
 #### Types of Normal form
 During my cousrse of diving through normalization I found out that there are different types of normal form
 
-https://miro.medium.com/v2/resize:fit:1400/format:webp/1*2e4BcaGoJB_H9q5MqGmI9Q.png
+![Alt text](../image/type_of_NF.png)
 
 ### First Nomal  form (1NF)
 There are basic principle or rule for the database to be in a First normal form: 
@@ -25,17 +25,16 @@ There are basic principle or rule for the database to be in a First normal form:
 
 4. The order in which data is stored should not matter 
 
-https://www.dummies.com/wp-content/uploads/399618.image1.jpg
 
-
+![Alt text](../image/sale.png)
 
 let me show you a example, in the following table as said in the above rules each column should contain only single value but in this case there are more one values in the subject column.
 
-    https://miro.medium.com/v2/resize:fit:1400/format:webp/1*wMW2xLwFAcfMhhyr3wWemQ.png
+    ![Alt text](../image/1NF.png)
 
 So to fix this we just need to break the values in the singl values as shown in the table below.
 
-    https://miro.medium.com/v2/resize:fit:1400/format:webp/1*ngaofQWIozI59t7S-7zEJg.png
+   ![Alt text](../image/1NF_2.png)
 
 ---
 ### Second normal form (2NF)
