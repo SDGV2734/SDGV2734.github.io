@@ -40,9 +40,9 @@ So to fix this we just need to break the values in the singl values as shown in 
 ### Second normal form (2NF)
 This form also has some basic principle to be followed for the data to be in 2NF. The principle are;
 
-    1. First and fore most the table should be in 1NF.
+1. First and fore most the table should be in 1NF.
 
-    2. There should not be any Partail Dependency.
+2. There should not be any Partail Dependency.
 
 Before we dive in let me tell you what Partail Dependency is, It an attribute in a table that depends on only a part of the primary key but not the whole key.
 
@@ -80,9 +80,9 @@ Thus, the relation happens to be in the second normal form in the case of Databa
 ### Third Normal form (3NF)
 Same as 1NF and 2NF, 3NF also has some rule to be followed and they are;
 
-    1. the table should be in Second normal form.
+1. the table should be in Second normal form.
 
-    2. And the table should not have Transitive Dependency.
+2. And the table should not have Transitive Dependency.
 
 And again before I say anything further let me tell you what Trasitive Dependency is, 
 "Transitive Dependency refers to some non-primary key other than the primary key that depends on another non-primary akey that is dependent entirely on the primary key."
