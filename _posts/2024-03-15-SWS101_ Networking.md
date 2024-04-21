@@ -1,6 +1,6 @@
 ---
-Title: SWS101 Journal
-categories: [SWS101, Journal]
+Title: SWS101_Networking
+categories: [SWS101, Networking]
 tags: [SWS101]
 ---
 
