@@ -93,7 +93,7 @@ In the config I was able find the root flag
 
 ### Learning from Sequel Machine
 
-In this machine learned that what a SQL (Structured Query Language) is how it is used to communicate with the database. In this machine, the server MySQL version is running on mariadb. So, mariadb is an open source database to help store and organize data.
+In this machine learned  that what a SQL (Structured Query Language) is how it is used to communicate with the database. In this machine, the server MySQL version is running on mariadb. So, mariadb is an open source database to help store and organize data.
 
 ---
 
