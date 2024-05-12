@@ -1,6 +1,6 @@
 ---
 Title: Traffic Analysis Essentials
-categories: [SWS101, Defensive Security]
+categories: [SWS101, Traffic Analysis Essentials]
 tags: [SWS101]
 ---
 
