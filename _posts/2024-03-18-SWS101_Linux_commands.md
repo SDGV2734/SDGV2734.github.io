@@ -1,6 +1,6 @@
 ---
 Title: SWS101_Linux_Commands
-categories: [SWS101, Linux commands]
+categories: [SWS101, Journal 1]
 tags: [SWS101]
 ---
 

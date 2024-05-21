@@ -1,6 +1,6 @@
 ---
 Title: Traffic Analysis Essentials
-categories: [SWS101, Traffic Analysis Essentials]
+categories: [SWS101, Journal 5]
 tags: [SWS101]
 ---
 

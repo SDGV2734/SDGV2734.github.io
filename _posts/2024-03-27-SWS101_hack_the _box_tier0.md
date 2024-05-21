@@ -1,6 +1,6 @@
 ---
 Title: SWS101_Hack_the_box_tier0
-categories: [SWS101, Hack the Box]
+categories: [SWS101, Journal 2]
 tags: [SWS101]
 ---
 
